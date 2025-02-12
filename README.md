@@ -1,75 +1,42 @@
-# Dự Án Website Thương Mại Điện Tử
+# README: Dự án Làm Quen với Git
 
-## Tổng Quan
-Dự án này phát triển một nền tảng thương mại điện tử với nhiều tính năng nhằm mang lại trải nghiệm mua sắm trực tuyến mượt mà. Website cho phép người dùng duyệt và mua sản phẩm, quản lý giỏ hàng và xử lý giao dịch với nhiều cửa hàng hiệu quả. Ngoài ra, hệ thống còn cung cấp các tính năng như phân loại sản phẩm, quản lý người dùng, xử lý đơn hàng và hệ thống thanh toán thông minh.
+## Mục đích của dự án
+Dự án này được tạo ra nhằm mục đích giúp bạn:
 
-## Thành Viên Nhóm
+1. Làm quen với các khái niệm cơ bản về Git, một hệ thống quản lý phiên bản phổ biến nhất.
+2. Thực hành các lệnh Git cơ bản như `init`, `add`, `commit`, `push`, `pull`, `branch`, và `merge`.
+3. Hiểu cách Git hỗ trợ trong việc cộng tác nhóm thông qua việc sử dụng các nền tảng như GitHub, GitLab, hoặc Bitbucket.
 
-| **Họ Tên**              | **Mã Số Sinh Viên** |
-|-------------------------|---------------------|
-| Nguyễn Công Quý        | 22110403            |
-| Lương Quang Thịnh      | 22110428            |
-| Nguyễn Đức Sang        | 22110404            |
-| Phạm Tiến Anh          | 22110282            |
-| Nguyễn Hoàng Thùy Linh | 22110364            |
+## Nội dung của dự án
+Dự án bao gồm:
 
-## Tính Năng Dự Án
+- **Thư mục và file mẫu**: Các file đơn giản để bạn thực hành việc theo dõi và quản lý phiên bản.
+- **Bài tập thực hành**: Các bước hướng dẫn để bạn làm quen với quy trình làm việc trên Git.
+- **Câu hỏi ôn tập**: Giúp củng cố kiến thức về Git sau khi thực hành.
 
-1. **Quản Lý Sản Phẩm**
-   - Thêm, sửa, xóa và xem sản phẩm.
-   - Phân loại sản phẩm theo loại, thương hiệu và khoảng giá.
+## Yêu cầu trước khi bắt đầu
+Trước khi tham gia dự án, bạn cần:
 
-2. **Quản Lý Người Dùng**
-   - Đăng ký và đăng nhập người dùng.
-   - Phân quyền (ví dụ: quản trị viên, khách hàng) với các quyền hạn cụ thể.
+- Cài đặt Git trên máy tính của mình.
+- Có tài khoản GitHub (hoặc các nền tảng tương tự) để thực hành.
+- Biết cách sử dụng terminal hoặc command line cơ bản.
 
-3. **Giỏ Hàng và Thanh Toán**
-   - Thêm/xóa sản phẩm khỏi giỏ hàng.
-   - Chia nhỏ hóa đơn cho các giao dịch từ nhiều cửa hàng.
-   - Tích hợp cổng thanh toán an toàn.
-
-4. **Quản Lý Đơn Hàng và Kho Hàng**
-   - Theo dõi trạng thái đơn hàng (ví dụ: đang xử lý, đã giao hàng).
-   - Giám sát số lượng hàng tồn kho và thông báo khi sắp hết hàng.
-
-5. **Đánh Giá và Xếp Hạng**
-   - Cho phép người dùng để lại đánh giá và xếp hạng sản phẩm.
-
-
-## Công Nghệ Sử Dụng
-
-- **Frontend**: HTML5, CSS3 - SCSS (Bootstrap / TailwindCSS), JavaScript (React).
-- **Backend**: Java (Spring Framework: Spring Boot, Spring Security, Spring Clound).
-- **Cơ Sở Dữ Liệu**: MySQL / Redis.
-- **Quản Lý Phiên Bản**: GitHub.
-- **Triển Khai**: Docker / K8S.
-
-## Cách Chạy Dự Án
-
-1. Clone repository:
+## Hướng dẫn sử dụng
+1. **Clone hoặc tải dự án về máy**:
    ```bash
-   git clone https://github.com/repo----
+   git clone <link-repo>
    ```
-2. Di chuyển đến thư mục dự án và thiết lập backend:
+2. **Chuyển đến thư mục dự án**:
    ```bash
-   cd backend
-   mvn clean install
+   cd <ten-thu-muc-du-an>
    ```
-3. Khởi chạy server:
-   ```bash
-   mvn spring-boot:run
-   ```
-4. Thiết lập frontend:
-   ```bash
-   cd frontend
-   npm install
-   npm start
-   ```
-5. Truy cập ứng dụng tại `http://localhost:3000`.
+3. **Thực hành theo hướng dẫn trong file `instructions.md`**.
+4. **Tự thực hiện các thay đổi, commit và đẩy lên repository từ xa**.
 
-## Đóng Góp
+## Tài liệu tham khảo
+- [Hướng dẫn Git cơ bản của Git](https://git-scm.com/doc)
+- [Học Git với GitHub](https://docs.github.com/en/get-started)
 
-Nhóm hoan nghênh các đóng góp! Vui lòng làm theo các hướng dẫn sau:
-- Fork repository.
-- Tạo branch mới cho tính năng/sửa lỗi của bạn.
-- Gửi pull request với mô tả chi tiết về các thay đổi.
+## Góp ý và hỗ trợ
+Nếu bạn gặp bất kỳ vấn đề gì khi thực hiện dự án, hãy tạo một issue trên repository này hoặc liên hệ với người hướng dẫn.
+
