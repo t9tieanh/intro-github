@@ -3,7 +3,7 @@
 ## Mục đích của dự án
 Dự án này được tạo ra nhằm mục đích giúp bạn:
 
-1. Làm quen với các khái niệm cơ bản về Git, một hệ thống quản lý phiên bản phổ biến.
+1. Làm quen với các khái niệm cơ bản về Git, một hệ thống quản lý phiên bản phổ biến nhất.
 2. Thực hành các lệnh Git cơ bản như `init`, `add`, `commit`, `push`, `pull`, `branch`, và `merge`.
 3. Hiểu cách Git hỗ trợ trong việc cộng tác nhóm thông qua việc sử dụng các nền tảng như GitHub, GitLab, hoặc Bitbucket.
 
